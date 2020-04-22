@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>ip_api.Core</RootNamespace>
+    <Authors>Qlogic.io</Authors>
+    <Company>Qlogic.io</Company>
+    <Copyright>Copyright ©2020</Copyright>
+    <RepositoryUrl>https://github.com/GauravQ/ip-api</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>ip-api geolocation ip address</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile></PackageLicenseFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.10.1" />
+  </ItemGroup>
+
+</Project>
